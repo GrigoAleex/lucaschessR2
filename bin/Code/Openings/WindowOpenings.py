@@ -58,7 +58,7 @@ class WOpenings(LCDialog.LCDialog):
         tb = QTVarios.LCTB(self, icon_size=24)
         tb.new(_("Select"), Iconos.Aceptar(), self.aceptar)
         tb.new(_("Cancel"), Iconos.Cancelar(), self.cancelar)
-        tb.new(_("Reinit sa"), Iconos.Reiniciar(), self.resetPartida)
+        tb.new(_("Reinit"), Iconos.Reiniciar(), self.resetPartida)
         tb.new(_("Takeback"), Iconos.Atras(), self.atras)
         tb.new(_("Read PGN file"), Iconos.PGN(), self.read_pgn)
         tb.new(_("Remove"), Iconos.Borrar(), self.borrar)
