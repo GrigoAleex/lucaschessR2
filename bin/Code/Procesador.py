@@ -20,6 +20,7 @@ from Code.Base.Constantes import (
     TB_COMPETE,
     TB_INFORMATION,
     TB_OPTIONS,
+    TB_SHORCUTS,
     TB_PLAY,
     TB_QUIT,
     TB_TOOLS,
@@ -82,6 +83,7 @@ from Code.Swiss import WSwisses, ManagerSwiss
 from Code.Tournaments import WTournaments
 from Code.Washing import ManagerWashing, WindowWashing
 from Code.WritingDown import WritingDown, ManagerWritingDown
+from Code.Menus.BasicMenus import  atajos
 
 
 class Procesador:
@@ -118,6 +120,7 @@ class Procesador:
             TB_TOOLS,
             TB_OPTIONS,
             TB_INFORMATION,
+            TB_SHORCUTS,
         ]  # Lo incluimos aqui porque sino no lo lee, en caso de aplazada
 
         self.configuration = Configuration.Configuration(user)
@@ -560,6 +563,10 @@ class Procesador:
         elif key == TB_PLAY:
             self.check_engines()
             self.menuplay()
+            
+        elif key == TB_SHORCUTS:
+            self.check_engines()
+            atajos(self)
 
         elif key == TB_COMPETE:
             self.check_engines()
