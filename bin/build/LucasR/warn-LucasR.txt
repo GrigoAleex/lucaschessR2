@@ -1,0 +1,57 @@
+
+This file lists modules PyInstaller was not able to find. This does not
+necessarily mean this module is required for running your program. Python and
+Python 3rd-party packages include a lot of conditional or optional modules. For
+example the module 'ntpath' only exists on Windows, whereas the module
+'posixpath' only exists on Posix systems.
+
+Types if import:
+* top-level: imported at the top-level - look at these first
+* conditional: imported within an if-statement
+* delayed: imported within a function
+* optional: imported within a try-except-statement
+
+IMPORTANT: Do NOT post this list to the issue-tracker. Use it as a basis for
+            tracking down the missing module yourself. Thanks!
+
+missing module named pep517 - imported by importlib.metadata (delayed)
+missing module named 'org.python' - imported by copy (optional), xml.sax (delayed, conditional)
+missing module named pwd - imported by posixpath (delayed, conditional), subprocess (delayed, conditional, optional), shutil (delayed, optional), tarfile (optional), pathlib (delayed, optional), netrc (delayed, conditional), getpass (delayed), psutil (optional), webbrowser (delayed), distutils.util (delayed, conditional, optional), http.server (delayed, optional)
+missing module named grp - imported by subprocess (delayed, conditional, optional), shutil (delayed, optional), tarfile (optional), pathlib (delayed, optional)
+missing module named org - imported by pickle (optional)
+missing module named posix - imported by os (conditional, optional), shutil (conditional), importlib._bootstrap_external (conditional)
+missing module named resource - imported by posix (top-level)
+missing module named _frozen_importlib_external - imported by importlib._bootstrap (delayed), importlib (optional), importlib.abc (optional), zipimport (top-level)
+excluded module named _frozen_importlib - imported by importlib (optional), importlib.abc (optional), zipimport (top-level)
+missing module named pyimod02_importers - imported by C:\Users\grig\AppData\Local\Programs\Python\Python310\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_pkgres.py (delayed), C:\Users\grig\AppData\Local\Programs\Python\Python310\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_pkgutil.py (delayed)
+missing module named _posixsubprocess - imported by subprocess (optional)
+missing module named fcntl - imported by subprocess (optional), psutil._compat (delayed, optional)
+missing module named _manylinux - imported by pkg_resources._vendor.packaging.tags (delayed, optional), packaging._manylinux (delayed, optional)
+missing module named termios - imported by getpass (optional), psutil._compat (delayed, optional), tty (top-level)
+missing module named readline - imported by cmd (delayed, conditional, optional), code (delayed, conditional, optional), pdb (delayed, optional)
+missing module named __builtin__ - imported by pkg_resources._vendor.pyparsing (conditional)
+missing module named ordereddict - imported by pkg_resources._vendor.pyparsing (optional)
+missing module named 'pkg_resources.extern.pyparsing' - imported by pkg_resources._vendor.packaging.markers (top-level), pkg_resources._vendor.packaging.requirements (top-level)
+missing module named 'win32com.shell' - imported by pkg_resources._vendor.appdirs (conditional, optional)
+missing module named 'com.sun' - imported by pkg_resources._vendor.appdirs (delayed, conditional, optional)
+missing module named com - imported by pkg_resources._vendor.appdirs (delayed)
+missing module named win32api - imported by pkg_resources._vendor.appdirs (delayed, conditional, optional)
+missing module named win32com - imported by pkg_resources._vendor.appdirs (delayed)
+missing module named _winreg - imported by platform (delayed, optional), pkg_resources._vendor.appdirs (delayed, conditional)
+missing module named pkg_resources.extern.packaging - imported by pkg_resources.extern (top-level), pkg_resources (top-level)
+missing module named pkg_resources.extern.appdirs - imported by pkg_resources.extern (top-level), pkg_resources (top-level)
+missing module named _scproxy - imported by urllib.request (conditional)
+missing module named 'java.lang' - imported by platform (delayed, optional), xml.sax._exceptions (conditional)
+missing module named vms_lib - imported by platform (delayed, optional)
+missing module named java - imported by platform (delayed)
+missing module named _dummy_thread - imported by sortedcontainers.sortedlist (conditional, optional)
+missing module named dummy_thread - imported by sortedcontainers.sortedlist (conditional, optional)
+missing module named thread - imported by sortedcontainers.sortedlist (conditional, optional)
+missing module named dummy_threading - imported by psutil._compat (optional)
+missing module named olefile - imported by PIL.FpxImagePlugin (top-level), PIL.MicImagePlugin (top-level)
+missing module named numpy - imported by PIL._typing (optional), PIL.Image (delayed, conditional, optional)
+missing module named cffi - imported by PIL.Image (optional), PIL.PyAccess (optional)
+missing module named defusedxml - imported by PIL.Image (optional)
+missing module named typing_extensions - imported by PIL._typing (conditional, optional), chess (conditional)
+missing module named OSEngines - imported by Code.Engines.SelectEngines (top-level), Code.Competitions.ManagerElo (top-level), Code.Config.Configuration (top-level)
+missing module named FasterCode - imported by Code.Base.Game (top-level), Code.Base.Position (top-level), Code.Openings.OpeningsStd (top-level), Code.Books.Polyglot (top-level), Code.Manager (top-level), Code.Analysis.AnalysisIndexes (top-level), Code.Board.Board (top-level), Code.Databases.DBgames (top-level), Code.Databases.DBgamesST (top-level), Code.ForcingMoves.ForcingMoves (top-level), Code.QT.WindowArbol (top-level), Code.Engines.EngineManager (top-level), Code.Openings.OpeningLines (top-level), Code.Tutor.Tutor (top-level), Code.ManagerGame (top-level), Code.ManagerSolo (top-level), Code.Books.DBPolyglot (top-level), Code.Books.WPolyglot (top-level), Code.Books.PolyglotImportExports (top-level), Code.Books.WBooksTrainOL (top-level), Code.Competitions.ManagerFideFics (top-level), Code.GM.GM (top-level), Code.Databases.WDB_Players (top-level), Code.Endings.WEndingsGTB (top-level), Code.Endings.LibChess (top-level), Code.Expeditions.WindowEverest (top-level), Code.Expeditions.Everest (top-level), Code.ManagerFindAllMoves (top-level), Code.CountsCaptures.WRunCaptures (top-level), Code.CountsCaptures.WRunCounts (top-level), Code.QT.WindowHorses (top-level), Code.QT.WindowVisualiza (top-level), Code.Openings.POLAnalisis (top-level), Code.PlayAgainstEngine.ManagerPlayAgainstEngine (top-level), Code.Routes.ManagerRoutes (top-level), Code.Kibitzers.WKibCommon (top-level), Code.Kibitzers.WKibIndex (top-level)
